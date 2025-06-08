@@ -42,16 +42,16 @@ function projetolista(projeto) {
     const nomePai = document.createElement('div');
     nomePai.classList.add('col-6');
     nomePai.classList.add('col-lg-3');
-    nomePai.classList.add('mb-4');
+    nomePai.classList.add('mb-3');
     
     return nomePai;
 }
 listaDeProjetos.forEach(function (projeto) {
     const tudo = document.createElement('div');
-    tudo.classList.add('col-6', 'col-lg-3', 'mb-4','card','p-3'); // Classes do grid do Bootstrap
+    tudo.classList.add('col-6', 'col-lg-3', 'mb-3','card',); // Classes do grid do Bootstrap
 
     const elemento = projetolista(projeto.elemento);
-    elemento.className = 'card-body bg-light text-dark p-3';
+    elemento.className = 'card-body bg-light text-dark p-3 mb-3';
 
     elemento.innerHTML = '<h3>' + projeto.nome + '</h3>' +
         '<p>' + projeto.descricao + '</p>' + '<a>' + projeto.link + '</a>';
