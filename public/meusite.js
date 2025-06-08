@@ -30,6 +30,11 @@ const listaDeProjetos= [
         descricao: 'Criador de dados fakes usando python',
         link:'https://github.com/GaebeSS/criador-de-dados-fakes'
     }, 
+     {
+        nome: 'Site freelancer',
+        descricao: 'Esse site no github',
+        link:'https://github.com/GaebeSS/Meu-site-freelancer'
+    }, 
  
 ]
 
