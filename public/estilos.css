@@ -1,0 +1,45 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    margin: 0 auto;
+}
+header{
+    background: #c77223;
+    background: linear-gradient(0deg, rgba(199, 114, 35, 1) 10%, rgba(253, 187, 45, 1) 70%);
+    color: whitesmoke;
+
+    padding: 80px 0;
+}
+header #header-photo img{
+    border: 5px solid orange;
+    border-radius: 50%;
+    overflow: hidden;
+}
+@media (max-width: 768px) {
+    header .row {
+        flex-direction: column-reverse;
+    }
+    #header-infos{
+    margin-top: 24px;
+    }
+}
+#habilidades #habilidade-lista .habilidade-item{
+    background-color: #eb7f1b;
+    color: white;
+    min-width: 200px;
+    text-align: center;
+
+
+    padding: 20px 24px;
+    border-radius: 7px;
+
+    transition: transform 0.3s;
+}
+#habilidades #habilidade-lista .habilidade-item:hover{
+    transform: scale(1.1);
+}
+
+#habilidades #habilidade-lista .habilidade-item p{
+    margin-bottom: 0;
+}
