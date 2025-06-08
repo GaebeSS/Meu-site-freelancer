@@ -48,7 +48,7 @@ function projetolista(projeto) {
 }
 listaDeProjetos.forEach(function (projeto) {
     const tudo = document.createElement('div');
-    tudo.classList.add('col-6', 'col-lg-4', 'mb-4','card'); // Classes do grid do Bootstrap
+    tudo.classList.add('col-6', 'col-lg-3', 'mb-4','card','p-3'); // Classes do grid do Bootstrap
 
     const elemento = projetolista(projeto.elemento);
     elemento.className = 'card-body bg-light text-dark p-3';
